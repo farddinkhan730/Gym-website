@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(/assets/axiom-series.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+        
+        }
+        nav li{
+            list-style: none;
+            display: inline-block;
+            padding: 2px 6px ;
+            margin: auto;
+        }
+        nav li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav li a:hover, nav li a:active{
+            color: rgb(150, 146, 146);
+            text-decoration: underline;
+
+        }
+        nav div img{
+            width: 54px;
+        }
+        .c1{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 34px;
+            left: 20px;
+
+        
+        }
+        .c2{
+            /* border: 2px solid red; */
+            display:block;
+            margin: 50px auto;
+            width: 450px;
+        }
+        .c3{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            right: 24px;
+            top :30px;
+        }
+        .btn{
+            border-radius: 9px;
+            
+            border:1px solid grey;
+            background-color: unset;
+            color: white;
+            cursor: pointer;
+            background-color: black;
+        }
+        .for{
+            border: 2px solid rgb(0, 0, 0);
+            margin: 34px auto;
+            width: 50%;
+            border-radius: 16px;
+            padding: 17px;
+            text-align: center;
+            font-size: 29px;
+        }
+        .formfiv input{
+            
+            margin:20px auto;
+            width: 306px;
+            padding: 4px 20px;
+            border-radius: 19px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="cont">
+        <nav>
+            <div class="c1">
+                <img src="/assets/fvx.jpg" alt="image" title="Home">
+            </div>
+            <div class="c2">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="c3">
+                <button type="button" class="btn">Call Us Now</button>
+                <button type="button" class="btn"> Email Us</button>
+            </div>
+        </nav>
+    </header>
+    <div class="for">
+        <form action="noaction.php">
+            <h3>Join The Best Gym Of Agra </h3>
+            <div class="formfiv" >
+                <input type="text" value="Name">
+
+            </div>
+            <div class="formfiv">
+                <input type="text" value="Age">
+
+            </div>
+            <div class="formfiv">
+            <input type="text" value="Gender">
+            
+            </div>
+
+            <div class="formfiv">
+                <input type="text" value="Locality">
+                
+                </div>
+
+            <div class="formfiv">
+
+                <input type="button" value="submit"  class="btn">
+            </div>
+            
+            
+            
+        </form>
+
+    </div>
+
+    
+</body>
+</html>
